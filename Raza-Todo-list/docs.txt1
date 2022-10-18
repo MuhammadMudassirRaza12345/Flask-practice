@@ -1,0 +1,22 @@
+virtualenv :pip install virtualenv
+
+Create Python virtual environment: virtualenv env
+
+Activate virtual environment:
+
+Flask :pip install Flask
+
+https://www.geeksforgeeks.org/flask-creating-first-simple-application/
+
+or flask mimimal app
+
+copy mimimal code
+
+create two folder static and dynamic outside env folder
+
+
+in app.py
+import render_template
+
+render_template used with return to get html file
+

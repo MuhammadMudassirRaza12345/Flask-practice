@@ -1,0 +1,55 @@
+Python 3.9.12
+Flask 2.2.2
+
+virtualenv :pip install virtualenv
+
+Create Python virtual environment: virtualenv env
+
+Activate virtual environment:env\Scripts\activate
+
+
+Flask :pip install Flask
+
+https://www.geeksforgeeks.org/flask-creating-first-simple-application/
+
+or flask mimimal app
+
+copy mimimal code
+
+create two folder static and dynamic outside env folder
+
+
+in app.py
+import render_template
+
+render_template used with return to get html file
+
+
+Setting Up SQLAlchemy:
+Now, let’s move on to creating a database for our application. For the purpose of this article, 
+we will be using SQLAlchemy a database toolkit, and an ORM(Object Relational Mapper). We will be using pip again to
+install SQLAlchemy. The command is as follows,
+
+
+pip3 install flask-sqlalchemy       or
+
+if above not work
+
+pip install SQLAlchemy Flask-SQLAlchemy or 
+pip3 install flask-sqlalchemy sqlalchemy   or 
+pip install Flask-SQLAlchemy   or
+pip show Flask-SQLAlchemy
+
+
+write python in power shell then write the following command
+from app import db
+db.create_all()
+ 
+
+
+after completion
+
+pip install gunicorn
+
+pip freeze > requirements.txt
+
